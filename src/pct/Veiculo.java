@@ -27,7 +27,7 @@ public class Veiculo {
     }
     
     public void acelerar(){
-        if(velocidade < 120)
+        if(velocidade < 320)
         velocidade++;
     }
     

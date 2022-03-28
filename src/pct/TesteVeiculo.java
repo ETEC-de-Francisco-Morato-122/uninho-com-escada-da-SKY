@@ -24,14 +24,14 @@ public class TesteVeiculo {
         myCar.marca = "Fiat";
         myCar.modelo = "Uninho da SKY";
         myCar.cor = 'B';
-        myCar.velocidade = 0;
+        myCar.velocidade = 130;
         
         //Exibir myCar
         System.out.println("\n\t\t\t -- UNINHO SEM ESCADA -- \n");
         myCar.exibirVeiculo();
         
         //Acelerando meu GTR
-        for(int i =0; i < 300; i++)
+        for(int i =0; i < 320; i++)
         myCar.acelerar();
         
         //Exibir myCar acelerada
