@@ -27,7 +27,7 @@ public class TesteVeiculo {
         myCar.velocidade = 0;
         
         //Exibir myCar
-        System.out.println("\n\t\t\t -- Meu carro -- \n");
+        System.out.println("\n\t\t\t -- UNINHO SEM ESCADA -- \n");
         myCar.exibirVeiculo();
         
         //Acelerando meu GTR
@@ -35,7 +35,7 @@ public class TesteVeiculo {
         myCar.acelerar();
         
         //Exibir myCar acelerada
-        System.out.println("\n\t\t\t -- Meu carro acelerado -- \n");
+        System.out.println("\n\t\t\t -- UNINHO COM ESCADA -- \n");
         myCar.exibirVeiculo();
         
         
