@@ -38,6 +38,14 @@ public class TesteVeiculo {
         System.out.println("\n\t\t\t -- UNINHO COM ESCADA -- \n");
         myCar.exibirVeiculo();
         
+        //Acelerando meu GTR
+        for(int i = myCar.velocidade; i > 0; i--)
+        myCar.frear();
+        
+        //Exibir myCar acelerada
+        System.out.println("\n\t\t\t -- UNINHO FREIOU -- \n");
+        myCar.exibirVeiculo();
+        
         
         
     }

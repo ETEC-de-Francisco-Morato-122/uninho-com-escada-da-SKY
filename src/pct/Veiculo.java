@@ -31,4 +31,8 @@ public class Veiculo {
         velocidade++;
     }
     
+    public void frear(){
+        velocidade--;
+    }
+    
 }
